@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigación: Web Components Nativos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header-app titulo="Panel de Gestión de Usuarios"></header-app>
+
+    <main class="contenedor-principal">
+        <card-usuario nombre="Juan Pérez" cargo="Desarrollador Frontend" estado="Activo" imagen="assets/juan.png">
+        </card-usuario>
+
+        <card-usuario nombre="María García" cargo="Analista de Sistemas" estado="En línea" imagen="assets/maria.png">
+        </card-usuario>
+    </main>
+
+    <footer-app texto="© 2026 Sahid Bosquez. Todos los derechos reservados."></footer-app>
+
+    <script src="componentes/CardUsuario.js"></script>
+    <script src="componentes/HeaderApp.js"></script>
+    <script src="componentes/FooterApp.js"></script>
+</body>
+
+</html>
