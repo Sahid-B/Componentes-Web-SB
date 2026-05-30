@@ -1,0 +1,22 @@
+/* layout.css */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__main {
+  flex: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  width: 100%;
+}
+
+.layout__footer {
+  text-align: center;
+  padding: 16px;
+  color: #888;
+  font-size: 0.8rem;
+  border-top: 1px solid #ddd;
+}

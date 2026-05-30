@@ -1,0 +1,71 @@
+/* noticias.css */
+.noticias__titulo {
+  margin-bottom: 8px;
+}
+
+.noticias__subtitulo {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.noticias__lista {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.noticias__item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.noticias__item--leida {
+  opacity: 0.55;
+}
+
+.noticias__fecha {
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.noticias__nombre {
+  font-size: 0.97rem;
+  margin-bottom: 4px;
+}
+
+.noticias__nombre--leida {
+  text-decoration: line-through;
+}
+
+.noticias__resumen {
+  font-size: 0.83rem;
+  color: #555;
+}
+
+.noticias__btn {
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.noticias__btn--pendiente {
+  background: #1a1a2e;
+  color: #fff;
+}
+
+.noticias__btn--leida {
+  background: #eee;
+  color: #555;
+}
